@@ -1,7 +1,6 @@
 let express = require('express'),
     app = express(),
     port = 3000;
-    //bodyParser = require('body-parser');
     
 const numbers = {
     2: ['a','b','c'],
