@@ -15,8 +15,28 @@ const numbers = {
 }
 
 app.get('/api', function(req, res){
-    res.send(numbers);
+    let nums = [];
+    if ( req.query.nums !== undefined ) {
+        nums = JSON.parse("[" + req.query.nums + "]");
+    }
+    res.json( a(nums) );
 });
+
+const a = nums => {
+    let results = [''];
+    for ( let num of nums ) {
+        let arr = [];
+        if( numbers[num] !== undefined ) {
+            for ( let letter of numbers[num] ) {
+                for( let result of results ) {
+                    arr.push(`${result}${letter}`)
+                }
+            } 
+        }
+        results = arr;
+    }
+    return results;  
+}
 
 app.listen(port, function(){
     console.log("APP IS RUNNING ON PORT " + port);
