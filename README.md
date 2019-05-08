@@ -4,8 +4,8 @@ T9 - Text is an app with node js backend and react frontend to get possible comb
 ## Getting Started
 
 ### Prerequisites
-- Node JS ()
-- NPM
+- Node JS (https://nodejs.org/es/download/)
+- NPM (https://www.npmjs.com/)
 
 ### Installing
 
@@ -64,4 +64,4 @@ The frontend app will be running on http://localhost:3000
 Ana María Espinosa
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/amespinosa11/t9-text/blob/master/LICENSE) file for details
