@@ -1,5 +1,7 @@
 # t9-text
-T9 - Text is an app with node js backend and react frontend to get possible combinations of [t9-text](https://en.wikipedia.org/wiki/T9_(predictive_text))
+T9 - Text is an app with node js backend and react frontend to get possible combinations of [t9-text](https://en.wikipedia.org/wiki/T9_(predictive_text)).
+
+It was deployed with heroku: https://t9-text-frontend.herokuapp.com/.
 
 ![alt text](https://github.com/amespinosa11/t9-text/blob/master/demo.PNG)
 
